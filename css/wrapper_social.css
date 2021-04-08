@@ -1,0 +1,38 @@
+.wrapper_social {
+	margin-right: 3%;
+	z-index: 1;
+
+	position: absolute;
+	right: 0;
+}
+
+.i_share {
+	background-color: var(--bg-body);
+	border-radius: 50%;
+	box-sizing: border-box;
+	padding: .7rem;
+}
+
+.wrapper_social:hover {
+	cursor: pointer;
+}
+
+@media screen and (max-width: 1150px) {
+	.social_icons {
+		background-color: var(--color-header);
+		border-radius: 0 0 15px 15px;
+		width: 100%;
+		height: 100%;
+
+		display: none;
+		align-items: center;
+		grid-gap: 1.5rem;
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+
+	.social_icons p {
+		margin-left: 1rem;
+	}
+}

@@ -1,0 +1,7 @@
+.wrapper_user {
+	padding: .5rem 2rem .5rem;
+
+	display: flex;
+	align-items: center;
+	position: relative;
+}

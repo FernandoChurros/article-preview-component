@@ -1,0 +1,18 @@
+.container {
+	background-color: var(--bg-section);
+	border-radius: 15px;
+}
+
+@media screen and (max-width: 1150px) {
+	.container {
+		width: 90%;
+		margin: 2rem auto;
+	}
+}
+
+@media screen and (min-width: 1150px) {
+	.container {
+		max-width: 1000px;
+		max-height: 300px;
+	}
+}
