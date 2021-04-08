@@ -18,7 +18,7 @@
 }
 
 .social_icons {
-	display: none;
+	display: flex;
 	background-color: var(--color-header);
 	align-items: center;
 	grid-gap: 1.5rem;
@@ -45,7 +45,8 @@
 	.social_icons {
 		border-radius: 15px;
 		padding: 1rem 1.5rem;
-		transform: translate(35%, -100%);
+		transition: 200ms;
+		transform: translate(35%, 0%) scale(0);
 
 		right: 0;
 	}

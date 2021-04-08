@@ -1,4 +1,8 @@
 .active {
-	display: flex;
 	fill: #FFF;
+	transform: translate(35%, -100%) scale(1);
+}
+
+.path {
+	transform: scale(1);
 }
