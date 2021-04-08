@@ -3,10 +3,11 @@
 	--color-paragraph: hsl(214, 17%, 51%);
 	--bg-body: hsl(212, 23%, 69%);
 	--bg-section: hsl(210, 46%, 95%);
+	--color-white: #fff;
 }
 
 body {
-	background-color: var(--bg-body);
+	background-color: var(--bg-section);
 	min-width: 100vw;
 	min-height: 100vh;
 }
