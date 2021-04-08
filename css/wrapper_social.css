@@ -17,22 +17,49 @@
 	cursor: pointer;
 }
 
+.social_icons {
+	display: none;
+	background-color: var(--color-header);
+	align-items: center;
+	grid-gap: 1.5rem;
+
+	position: absolute;
+	top: 0;
+}
+
 @media screen and (max-width: 1150px) {
 	.social_icons {
-		background-color: var(--color-header);
 		border-radius: 0 0 15px 15px;
 		width: 100%;
 		height: 100%;
 
-		display: none;
-		align-items: center;
-		grid-gap: 1.5rem;
-		position: absolute;
-		top: 0;
 		left: 0;
 	}
 
 	.social_icons p {
 		margin-left: 1rem;
+	}
+}
+
+@media screen and (min-width: 1150px) {
+	.social_icons {
+		border-radius: 15px;
+		padding: 1rem 1.5rem;
+		transform: translate(35%, -100%);
+
+		right: 0;
+	}
+
+	.social_icons::before {
+		content: "";
+		background-color: var(--color-header);
+		border-radius: 50% 0 2px 0;
+		width: 25px;
+		height: 25px;
+
+		position: absolute;
+		bottom: 0;
+		left: 50%;
+		transform: translate(-50%, 20%) rotate(45deg);
 	}
 }
