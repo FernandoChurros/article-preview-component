@@ -3,7 +3,7 @@ const socialIcons = document.querySelectorAll('.inative');
 
 function active() {
 
-	socialIcons.forEach(function(item) {
+	socialIcons.forEach(item => {
 
 		item.classList.toggle('active');
 	})
